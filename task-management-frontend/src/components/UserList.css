@@ -1,0 +1,72 @@
+/* src/components/UserList.css */
+
+.user-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center the text inside the container */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 0 10px; /* Add margin between buttons */
+  }
+  
+  .logout-button {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .nav-button {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+  
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .user-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    width: 100%;
+    max-width: 600px;
+    text-align: left; /* Align text to the left inside the user item */
+  }
+  
+  .user-item h2 {
+    margin-top: 0;
+  }
+  
+  .error {
+    color: red;
+  }
+  

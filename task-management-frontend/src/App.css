@@ -1,0 +1,149 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+/* src/App.css */
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #4CAF50;
+  padding: 10px 0;
+  color: white;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a, nav ul li button {
+  text-decoration: none;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+main {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.task-list-container, .user-list-container, .add-task-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.task-list, .user-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item, .user-item {
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.task-item:last-child, .user-item:last-child {
+  border-bottom: none;
+}
+
+.task-item h2, .user-item h2 {
+  margin: 0 0 10px;
+  color: #4CAF50;
+  text-align: center; /* Center the h2 text */
+}
+
+.task-item p, .user-item p {
+  margin: 5px 0;
+  color: #666;
+  text-align: center; /* Center the paragraph text */
+}
+form div {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
